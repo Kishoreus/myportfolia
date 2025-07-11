@@ -20,13 +20,13 @@ jobs:
       # Install frontend dependencies
       - name: Install frontend dependencies
         run: |
-          cd frontend
+          cd portfolio-frontend
           npm install
 
       # Build frontend React app
       - name: Build React App
         run: |
-          cd frontend
+          cd portfolio-frontend
           npm run build
 
       # Configure AWS credentials
@@ -40,7 +40,7 @@ jobs:
       # Deploy frontend to S3
       - name: Deploy to S3
         run: |
-          aws s3 sync frontend/build/ s3://lambda-artifacts-imageproject-kishore --delete
+          aws s3 sync portfolio-frontend/build/ s3://lambda-artifacts-imageproject-kishore --delete
 
       # Install backend (Lambda) dependencies
       - name: Install backend dependencies
@@ -54,5 +54,5 @@ jobs:
           cd backend
           zip -r function.zip .
           aws lambda update-function-code \
-            --function-name WriteToContactMessagesDynamoDB \
+            --function-name SubmitContactForm \
             --zip-file fileb://function.zip
