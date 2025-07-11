@@ -23,14 +23,14 @@ function App() {
   return (
     <div className="container">
       <header>
-        <h1>Ji Kishore</h1>
-        <h2>DevOps | Cloud | Full Stack Engineer</h2>
+        <h1>Kishore US</h1>
+        <h2>DevOps | Cloud AWS and AZURE</h2>
       </header>
 
       <section className="about">
         <h3>About Me</h3>
         <p>
-          I’m a passionate DevOps and Cloud engineer with experience in automating deployments, managing infrastructure,
+          I’m a passionate Cloud DevOps engineer with experience in automating deployments, managing infrastructure,
           and building scalable CI/CD pipelines using AWS, Docker, Kubernetes, Jenkins, Ansible, and more.
         </p>
       </section>
@@ -38,12 +38,12 @@ function App() {
       <section className="skills">
         <h3>Skills</h3>
         <ul>
-          <li>⚙️ DevOps: Jenkins, GitHub Actions, Ansible</li>
-          <li>☁️ Cloud: AWS (EC2, Lambda, S3, DynamoDB, API Gateway, IAM)</li>
-          <li>🐳 Containers: Docker, Kubernetes, Helm</li>
-          <li>🛠️ Infra: Terraform, CloudFormation</li>
-          <li>🖥️ Monitoring: CloudWatch, Prometheus</li>
-          <li>📜 Scripting: Bash, Python, YAML</li>
+          <li>DevOps: Jenkins, GitHub Actions, Ansible</li>
+          <li>Cloud: AWS , AZURE</li>
+          <li>Containers: Docker, Kubernetes, Helm</li>
+          <li>Infra: Terraform, CloudFormation</li>
+          <li>Monitoring: CloudWatch, Prometheus</li>
+          <li>Scripting: Bash, Python, YAML</li>
         </ul>
       </section>
 
@@ -67,7 +67,7 @@ function App() {
       </section>
 
       <footer>
-        <p>© 2025 Ji Kishore. Built with React & AWS.</p>
+        <p>© 2025 Kishoreus1999@gmail.com</p>
       </footer>
     </div>
   );
