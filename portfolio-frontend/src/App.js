@@ -23,7 +23,7 @@ function App() {
   return (
     <div className="container">
       <header>
-        <h1>Kishore US</h1>
+        <h1>Kishore KICK</h1>
         <h2>DevOps | Cloud AWS and AZURE</h2>
       </header>
 
