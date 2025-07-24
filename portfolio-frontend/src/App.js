@@ -23,7 +23,7 @@ function App() {
   return (
     <div className="container">
       <header>
-        <h1>Kishore KICK</h1>
+        <h1>Kishore US</h1>
         <h2>DevOps | Cloud AWS and AZURE</h2>
       </header>
 
@@ -42,7 +42,6 @@ function App() {
           <li>Cloud: AWS , AZURE</li>
           <li>Containers: Docker, Kubernetes, Helm</li>
           <li>Infra: Terraform, CloudFormation</li>
-          <li>Monitoring: CloudWatch, Prometheus</li>
           <li>Scripting: Bash, Python, YAML</li>
         </ul>
       </section>
